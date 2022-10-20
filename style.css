@@ -30,5 +30,10 @@ p, li {
 
 .equipo {
     width: 350px;
+}
+
+.bloque-imagen {
+    width: fit-content;
+    text-align: center;
     margin: 10px;
 }
