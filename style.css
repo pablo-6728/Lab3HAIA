@@ -25,11 +25,17 @@ p, li {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .equipo {
     width: 350px;
+    transition-duration: 0.3s;
+}
+
+.equipo:hover {
+    scale: 1.1;
 }
 
 .bloque-imagen {
